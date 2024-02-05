@@ -25,3 +25,24 @@ console.log(typeof anotherId)
 console.log(typeof heros)
 console.log(typeof myObj)
 console.log(typeof myFunction)
+
+//-------------------------------------------------------
+// stack (primative), Heap (Non-Primative)
+
+let myYoutubename = "MohammedWasilPasha"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(anothername)
+console.log(myYoutubename)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "wasil@google.com"
+
+console.log(userONe.email)
+console.log(userTwo.email)
